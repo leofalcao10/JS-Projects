@@ -1,0 +1,26 @@
+#rodape
+{	
+    position: absolute;
+    width: 97%;
+    bottom: 0;
+    margin-top:20px;
+	border-style:solid;
+	background-color:blue;
+	border-color:black;
+	font-style:italic;   
+    
+}
+#frase{
+    position: absolute;
+    top:0;
+    width: 30%;
+}
+body{
+    background-color:white;
+	padding: 15px;
+	border-color:black;
+	border-style:solid;
+	font-style:italic;
+  
+}
+

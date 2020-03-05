@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>TP04</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="js/script.js" async></script>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <header>
+      <h1>IMC</h1>
+  </header>
+
+  <section>
+      <form method="POST" class="form-container" id="formulario">
+        <div class="fields">
+        <label for="peso">Peso: </label><input type="number" id="peso" name="peso" class="input">
+        <label for="altura">Altura: </label><input type="number" id="altura" name="altura" class="input">
+        <input type="radio" id="cm" name="tamanho" value="cm"><label for="cm"> cm</label>
+        <input type="radio" id="mts" name="tamanho" value="mts" checked><label for="mts"> mts</label>
+        <button class="button" onclick="calculaImc()">Calcular</button>
+        </div>
+      </form>
+  </section>
+  
+  <footer>
+    <p>
+      Leonardo Plazezwski Falcão - 171700
+    </p>       
+  </footer>
+</body>
+
+</html>

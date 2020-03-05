@@ -1,0 +1,87 @@
+/*
+  Leonardo Plazezwski Falcão - 171700
+*/
+  
+body {
+  font: normal 15pt Times;
+  background-color: rgb(243, 243, 237);
+}
+
+section {
+  background-color: rgb(37, 123, 236);
+  border-radius: 10px;
+  padding: 10px;
+  width: 540px;
+  margin: auto;
+}
+  
+footer {
+  font-style: italic;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0;
+}
+
+/* Propriedades do formulário em geral */
+.form-container {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Propriedades dos campos em geral */
+.fields {
+  position: relative;
+  width: 100%;
+  margin: 25px auto;
+}
+
+/* Propriedades de cada input */
+.input {
+  width: 100%;
+  height: 50px;
+  margin: 8px 0px;
+  font-size: 17px;
+  line-height: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1;
+  outline: none;
+  border-bottom: 3px solid #000;
+}
+
+/* Botão parado */
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  /* Mudando a maneira como o cursor fica quando o mouse está encima do botão */
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: rgb(77, 89, 153);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+/* Botão com o mouse encima */
+.button:hover {
+  background-color: #68b4d3
+}
+
+/* Botão sendo clicado */
+.button:active {
+  background-color: #7243a7;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+

@@ -1,0 +1,72 @@
+
+body{
+    background-color: white;
+	padding: 15px;
+	border-color:#B0E0E6;
+	border-style:solid;
+	font-style:italic;
+    background-image:url(imagem/fundo.png)
+        
+}
+
+button:hover{
+    background-color: cadetblue;
+}
+
+button{    
+    font-size: 20px;
+    -webkit-transition: background-color 1s;
+    transition: background-color 1s;  
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);  
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 46px 46px 46px 46px;
+    }
+button#calcular{
+    font-size: 20px;
+}
+
+#rodape
+{	
+    position: absolute;
+    width: 97%;
+    bottom: 30;
+    margin-top:20px;
+	border-style:solid;
+	background-color:blue;
+	border-color:black;
+	font-style:italic;   
+    background-image:url(imagem/fundo.png);
+    
+}
+#conteudo{
+    position:relative;  
+    width: 10%;
+    border-style:solid;
+	background-color:blue;	
+	border-color:black;
+	padding:10px;
+	font-style:italic;   
+    background-image:url(imagem/fundo.png);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 46px 46px 46px 46px;
+}
+input.textbox{
+	border-color:black;
+    border-style: none;
+    width: 80;     
+}
+
+
+
+p {
+    font-size: 20;
+}
+#resultado{
+    font-size: 15px;
+    font-weight: bolder;
+}
+#frete{
+     font-size: 15px;
+    font-weight: bolder;
+}
